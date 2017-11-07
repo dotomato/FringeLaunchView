@@ -8,7 +8,9 @@
     tools:context="top.dotomato.example.MainActivity">
 
     <top.dotomato.library.FringeLaunchView
+        android:id="@+id/fringeLaunchView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        />
 
 </FrameLayout>

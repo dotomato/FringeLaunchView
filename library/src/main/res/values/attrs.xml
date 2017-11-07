@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FringeLaunchView">
+        <attr name="mainH1" format="float"/>
+        <attr name="mainH2" format="float"/>
+        <attr name="degree" format="integer"/>
+        <attr name="fringeCount" format="integer"/>
+        <attr name="intervalHeight" format="integer"/>
+        <attr name="fringeHeight" format="integer"/>
+        <attr name="fringeWidth" format="integer"/>
+        <attr name="slideLength" format="integer"/>
+        <attr name="overlapWidth" format="integer"/>
+        <attr name="enterDuration" format="float"/>
+        <attr name="exitDuration" format="float"/>
+    </declare-styleable>
+
+</resources>
