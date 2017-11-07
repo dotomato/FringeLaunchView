@@ -10,6 +10,23 @@
 
 [![](https://jitpack.io/v/dotomato/FringeLaunchView.svg)](https://jitpack.io/#dotomato/FringeLaunchView)
 
+在你的根项目的build.gradle里增加：
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    
+在app的build.gradle里增加
+
+	dependencies {
+	        compile 'com.github.dotomato:FringeLaunchView:1.0.1'
+	}
+
+You get it!
+
 ## 使用方法：
 
 在布局文件里：
