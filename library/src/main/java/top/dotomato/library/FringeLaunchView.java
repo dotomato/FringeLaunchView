@@ -52,6 +52,7 @@ public class FringeLaunchView extends View {
     private float enterDuration;
     private float exitDuration;
     private long ExitdelayMillis;
+    private float previewTime;
 
     public FringeLaunchView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
@@ -80,6 +81,7 @@ public class FringeLaunchView extends View {
             overlapWidth = a.getInteger(R.styleable.FringeLaunchView_overlapWidth, 700);
             enterDuration = a.getFloat(R.styleable.FringeLaunchView_enterDuration, 1.5f);
             exitDuration = a.getFloat(R.styleable.FringeLaunchView_exitDuration, 0.7f);
+            previewTime = a.getFloat(R.styleable.FringeLaunchView_previewTime, 2);
         }finally {
             a.recycle();
         }
@@ -244,7 +246,7 @@ public class FringeLaunchView extends View {
         void onDraw(Canvas canvas){
             if (isInEditMode()){
                 canvas.rotate(degree);
-                float t = 2f;
+                float t = previewTime;
                 for (Fringe fringe : fringes) {
                     fringe.drawFront(canvas, t);
                 }

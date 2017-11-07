@@ -11,6 +11,18 @@
         android:id="@+id/fringeLaunchView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:mainH1="0.9"
+        app:mainH2="0.98"
+        app:degree="20"
+        app:fringeCount="15"
+        app:intervalHeight="150"
+        app:fringeHeight="300"
+        app:fringeWidth="2500"
+        app:slideLength="2000"
+        app:overlapWidth="700"
+        app:enterDuration="1.5"
+        app:exitDuration="0.7"
+        app:previewTime="2"
         />
 
 </FrameLayout>

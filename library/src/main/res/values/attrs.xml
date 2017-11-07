@@ -12,6 +12,7 @@
         <attr name="overlapWidth" format="integer"/>
         <attr name="enterDuration" format="float"/>
         <attr name="exitDuration" format="float"/>
+        <attr name="previewTime" format="float"/>
     </declare-styleable>
 
 </resources>
