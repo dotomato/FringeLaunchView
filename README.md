@@ -1,6 +1,7 @@
 # FringeLaunchView
 
-一个漂亮的条纹动画。
+一个漂亮的条纹动画。可以用来显示应用的启动界面上。
+刚接触开源没多久，第一次把自己的代码做成了库发布出来，有不足的地方请大家多多指教喵的说~~ ^_^
 
 ![image](https://github.com/dotomato/FringeLaunchView/raw/master/demo.gif)
 
